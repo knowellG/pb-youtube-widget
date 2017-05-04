@@ -1,0 +1,71 @@
+#player-container {
+  margin: 0 auto;
+  width: 640px;
+}
+
+#playlist-container {
+  margin: 0 auto;
+  background-color: rgba(20, 20, 20, 0.2);
+  width: 640px;
+  height: 300px;
+  overflow: auto;
+  font-family: Lato,Helvetica,Arial,sans-serif
+}
+
+#playlistItems {
+  list-style: none;
+  padding: 0;
+}
+
+.playlist-listitem {
+  margin: 8px 2px;
+}
+
+.playlist-listitem:hover {
+  background-color: rgba(70, 70, 70, 0.8);
+}
+
+.playlist-listitem .info {
+  display: inline-block;
+  margin: 10px;
+  color: #fff;
+}
+
+.info .title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.playlist-listitem .thumbnail {
+  vertical-align: middle;
+}
+
+#widget-container {
+  background-image:
+    linear-gradient(rgba(200, 200, 200, 0.6), rgba(200, 200, 200, 0.6)),
+    url('http://ab.pkimgs.com/pkimgs/ab/images/dp/ecm/201718/0799/001/003.jpg'),
+    url('http://ab.pbimgs.com/pbimgs/ab/images/dp/ecm/201718/0951/001/001.gif');
+  background-position: top -80px right 50%;
+}
+
+#header-iframe {
+    border: none;
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+}
+
+#footer-iframe {
+    border: none;
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+}
+
+iframe::-webkit-scrollbar {
+  display: none;
+}
+
+#footer-container {
+  margin: 0;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css' />
+    <link rel='stylesheet' href='styles.css' />
+  </head>
+  <body>
+    <iframe scrolling="no" src="header.html" id="header-iframe" seamless></iframe>
+
+    <div id="widget-container">
+      <div id="player-container">
+        <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+        <div id="player"></div>
+      </div>
+      <div id='playlist-container' onscroll="scrolled(this)"></div>
+    </div>
+
+    <iframe scrolling="no" src="footer.html" id="footer-iframe" seamless></iframe>
+    <script src="scripts.js"></script>
+  </body>
+</html>
